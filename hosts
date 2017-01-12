@@ -1,0 +1,219 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+#
+# This is a sample HOSTS file used by Microsoft TCP/IP for Windows.
+#
+# This file contains the mappings of IP addresses to host names. Each
+# entry should be kept on an individual line. The IP address should
+# be placed in the first column followed by the corresponding host name.
+# The IP address and the host name should be separated by at least one
+# space.
+#
+# Additionally, comments (such as these) may be inserted on individual
+# lines or following the machine name denoted by a '#' symbol.
+#
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#    127.0.0.1       localhost
+#    ::1             localhost
+127.0.0.1 licensing.ultraedit.com
+127.0.0.1 licensing2.ultraedit.com
+
+54.231.98.184 github-windows.s3.amazonaws.com
+
+#cache
+10.0.0.21 user.cache.memory
+10.0.0.20 event.cache.memory
+10.0.0.20 cms.cache.memory
+10.0.0.21 report.cache.memory
+10.0.0.22 policy.cache.memory
+10.0.0.22 convert.cache.memory
+10.0.0.21 financial.cache.memory
+
+10.0.0.22       cache.report.application
+10.0.0.21 cache.analyse.customize
+10.0.0.21 f10.cache.memory
+10.0.0.21 cache.wealth.indicator
+
+10.0.0.40 wealth.asset.service
+10.0.0.40 wealth.plan.service
+10.0.0.40 user.authentication.service   
+10.0.0.40 gemantic.qpid.service
+
+10.0.0.49  wealth.keywizard.service
+10.0.0.49 wealth.indicator.service
+10.0.0.49 wealth.indicator.etl
+
+10.0.0.20   db.gemantic.cms.admin
+10.0.0.20   db.gemantic.wealth
+10.0.0.20   db.gemantic.cms.web
+10.0.0.27   db.gemantic.analyse.indictor
+10.0.0.20   db.gemantic.analyse.person
+10.0.0.20   db.gemantic.app.financial
+10.0.0.20   db.gemantic.analyse.authentication
+10.0.0.40   analyse.userload.service
+10.0.0.40 user.authentication.service
+10.0.0.89  db.gemantic.dataCenter
+#10.0.0.108  db.gemantic.dataCenter
+10.0.0.20  db.funds.f10
+10.0.0.21 funds.cache.memory
+
+10.0.0.20  indicator.cache.memory
+10.0.0.40 indicator.query.service
+10.0.0.40 funds.f10.etl
+#db
+10.0.0.20 db.gemantic.analyse.keywizard
+10.0.0.20 db.gemantic.app.cms
+10.0.0.20 db.gemantic.analyse.user
+10.0.0.92  qmx.db.gemantic.internal
+10.0.0.20 db.gemantic.idGenerator
+10.0.0.20 db.gemantic.analyse.idcenter
+10.0.0.20 db.gemantic.analyse.indicator
+10.0.0.20 hwflower.cache.bai.sohu.com reportnew.cache.memory
+10.0.0.20 db.analyse.customize
+10.0.0.139  web.gemantic.document.infos
+10.0.0.20 db.gemantic.analyse.report.new
+10.0.0.20 db.gemantic.resources
+
+#offic
+10.0.0.200      svn.gemantic.com
+#10.0.0.200      mvn.gemantic.com
+
+
+203.208.46.30 plus.google.com
+
+10.0.0.42 a-dev.gemantic.com pm.gemantic.com
+
+10.0.0.200 mvn.gemantic.com
+10.0.0.200 trac.gemantic.com
+10.0.0.200 svn.gemantic.com
+10.0.0.200 bug.gemantic.com
+10.0.0.200 hudson.gemantic.com
+10.0.0.144 cms-staging.gemantic.com
+10.0.0.144 searchfe-staging.gemantic.com
+
+10.0.0.144 terminal-staging.gemantic.com
+10.0.0.91 logfile.gemantic.com
+10.0.0.91 a.gemantic.com
+10.0.0.98 juchao.db.gemantic.internal
+
+10.0.0.41   new.index.search.service
+10.0.0.40   analyse.xh08.service
+10.0.0.40   message.gemantic.com
+#127.0.0.1  wealth.zq88.cn
+10.0.0.20   db.gemantic.index.xh08.mysql
+10.0.0.205  db.gemantic.index.xh08.oracle
+10.0.0.144  a-staging.gemantic.com
+10.0.0.49   wealth.event.service
+
+#10.0.0.150     www.rxhui.com
+
+#114.242.145.100 lc.hczq.com
+
+1.202.227.238  lc.hczq.com
+
+
+10.0.0.20 db.wealth.application
+
+
+10.0.0.21 cache.wealth.application
+
+10.0.0.42 dev_wlfu_dzg.gemantic.com
+
+10.0.0.22 cache.wealth.event
+10.0.0.20 db.gemantic.wealth.event
+
+10.0.0.115 gemantic.activemq.service
+
+
+
+#114.242.145.99 lc.rxun.cn
+
+#114.242.145.99 download.rxun.cn
+
+10.0.0.42 dev_ucenter.rxun.cn
+10.0.0.42 dev_wp.rxun.cn
+#127.0.0.1 dev_bb.a.com
+#127.0.0.1 dev-bb.a.com
+10.0.0.42 dev_bb.rxun.cn
+10.0.0.42 dev_answer.rxun.cn
+10.0.0.42 dev_answer_tjiang.rxun.cn dev_tjiang_dzg.gemantic.com
+
+10.0.0.42 dev-ucenter.a.com
+10.0.0.42 dev-wp.a.com
+10.0.0.49 dev-bb.a.com
+10.0.0.42 dev.rxhui.cn
+#127.0.0.1 dev-bb.a.com
+10.0.0.42 dev-answer.a.com
+10.0.0.144 answer-staging.rxun.cn wordpress-staging.rxun.cn ucenter-staging.rxun.cn   staging.rxhui.cn      dzg-staging.gemantic.cn
+
+10.0.0.49 dev.rxun.cn staging.lefunds.com dd.lefunds.com web.jinhui365.com dev.jinhui365.com
+
+10.0.0.251  dzg.gemantic.com
+
+10.0.0.42  dev.ys.com dzg-dev.gemantic.com dev-ad_wliu.jinhui365.com.cn swx.rxun.com
+
+#贵阳环境
+#222.85.178.63 www.jinhui365.com
+#222.85.178.64 download.jinhui365.com img.jinhui365.com
+#222.85.178.65 m.jinhui365.com
+#222.85.178.66 p.jinhui365.com
+#222.85.178.67 res.jinhui365.com
+#222.85.178.75 www.wajr365.com
+#222.85.178.73 www.asjr365.com
+
+
+#测试环境
+#10.0.0.114 gemantic.scallop.resource
+金蜂
+#10.0.0.115 wealth.business.service
+官网
+#10.0.0.114 wealth.business.service
+10.0.0.114 wealth.consignment.gov.service
+10.0.0.114 wealth.consignment.service
+10.0.0.114 wealth.user.service app.pad.service
+10.0.0.114 wealth.application.service
+10.0.0.114 wealth.banksinfo.service
+10.0.0.114 service.first
+10.0.0.115 service.second
+
+10.0.0.114 wealth.inbox.service
+10.0.0.114 funds.f10.service
+10.0.0.115 gemantic.wealth.activemq.service
+10.0.0.114 wealth.verifycode.service
+115.236.31.83 gemantic.activemq.user.vip.service
+
+10.0.0.112 tracker
+10.0.0.112 upload.fastdfs
+
+#开发环境
+10.0.0.40 gemantic.scallop.resource jinfeng.gemantic.scallop.resource
+#10.0.0.49 wealth.business.service
+10.0.0.49 wealth.consignment.gov.service
+10.0.0.49 wealth.consignment.service
+#10.0.0.49 wealth.user.service app.pad.service
+#10.0.0.49 wealth.application.service
+#10.0.0.49 wealth.banksinfo.service
+#10.0.0.49 service.first
+#10.0.0.49 service.second
+
+
+#本地环境
+127.0.0.1 wealth.business.service
+127.0.0.1 wealth.consignment.service
+#127.0.0.1 wealth.consignment.gov.service
+#127.0.0.1 wealth.application.service
+#127.0.0.1 wealth.user.service service.first
+#127.0.0.1 wealth.banksinfo.service
+
+
+10.0.0.42 gvans-dev_gjguo.jinhui365.com
+
+127.0.0.1 zyp.jinhui365.com
+10.0.0.42 imiqian-dev_gjguo.jinhui365.com dzg-dev_gjguo.gemantic.com 
+10.0.0.114 jf-staging.jinhui365.com
+10.0.0.114 jf-admin-staging.imiqian.cn/?page=admins&action=login
+192.168.44.1 windows10.microdone.cn
